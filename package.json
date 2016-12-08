@@ -2,9 +2,9 @@
   "name": "kuzmatech-text-parser",
   "version": "0.0.6",
   "description": "A wrapper for a multitude of text formats.",
-  "main": "parser.js",
+  "main": "lib/parser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "kuzmatech",
   "license": "MIT",
@@ -15,5 +15,8 @@
   "dependencies": {
     "lodash": "^4.17.2",
     "markdown-it": "^8.2.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
   }
 }
