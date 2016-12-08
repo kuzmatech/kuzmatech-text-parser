@@ -1,0 +1,11 @@
+{
+  "name": "kuzmatech-text-parser",
+  "version": "0.0.1",
+  "description": "A wrapper for a multitude of text formats.",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kuzmatech",
+  "license": "GPL-3.0+"
+}
