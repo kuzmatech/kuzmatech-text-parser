@@ -23,6 +23,13 @@ I feel the code is fairly self-explanatory and also contains some comments for s
 <script type="text/javascript" src="parser.js"></script>
 
 <script>
-  KZMPARSER.render('#Example Text Here \n We can even -render -a list .')
+  KZMPARSER.render('#Example Text Here \n We can even\n -render\n - a list .')
 <script>
 ```
+
+The above code would render
+
+# Example Text Here
+We can even 
+- render 
+- a list
