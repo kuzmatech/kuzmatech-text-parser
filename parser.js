@@ -1,5 +1,6 @@
 var KZMPARSER = ( function () {
-    var public = {};
+    "use strict";
+    var pblic = {};
     //Constants defintions
     const mdparseroptions = {
         html: true,
@@ -26,11 +27,11 @@ var KZMPARSER = ( function () {
         holder.text = raw;
         return bbcode.process(holder)
     }
-    public.render = (raw, optns = defoptions) => {
+    pblic.render = (raw, optns = defoptions) => {
         //Checks if an options object was passed and if not then sets the options to default.
         return _.unescape(bbrender(mdrender(raw)).html)
     }
-    return public
+    return pblic
 });
 try{
     if(module){
