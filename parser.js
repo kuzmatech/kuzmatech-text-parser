@@ -15,10 +15,11 @@ var KZMPARSER = ( function () {
         bbcode: true,
         markdown: true
     }
+    const isBrowser = typeof window !== 'undefined';
     //Defining functions
-    let mdit = window.markdownit(defoptions) || require('markdown-it')(defoptions);
-    let bbcode = window.XBBCODE || require('xbbcode') || require('./xbbcode');
-    let _ = window._ || require('lodash') || require('./lodash')
+    let mdit = isBrowser? window.markdownit(defoptions) : require('markdown-it')(defoptions);
+    let bbcode = isBrowser? window.XBBCODE : require('./xbbcode');
+    let _ = isBrowser? window._ : require('lodash') || require('./lodash')
     let mdrender = (raw) => {
         return mdit.render(raw)
     }
