@@ -21,6 +21,7 @@
     "jasmine": "^2.5.2"
   },
   "files": [
+    "./lib/parser.js",
     "./dependencies/xbbcode-extension/xbbcode-extension.js",
     "./dependencies/xbbcode-extension/package.json",
     "./dependencies/xbbcode/xbbcode.js",
