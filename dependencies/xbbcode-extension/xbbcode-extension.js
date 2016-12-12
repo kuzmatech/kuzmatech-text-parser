@@ -1,7 +1,6 @@
 var KZMBBCODEEXTENSIONS = (() => {
     //Def Const
-    const isBrowser = typeof window !== 'undefined';
-    const _ = isBrowser ? window._ : require('lodash')
+    const _ = require('lodash')
     const DEFAULTS = {
         type: 'bootstrap',
         button: {
