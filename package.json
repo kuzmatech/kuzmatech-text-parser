@@ -15,16 +15,16 @@
   "dependencies": {
     "lodash": "^4.17.2",
     "markdown-it": "^8.2.1",
-    "xbbcode": "file:/dependencies/xbbcode",
-    "xbbcode-extension": "file:/dependencies/xbbcode-extension"
+    "xbbcode": "file:./dependencies/xbbcode",
+    "xbbcode-extension": "file:./dependencies/xbbcode-extension"
   },
   "devDependencies": {
     "jasmine": "^2.5.2"
   },
   "files": [
     "./lib/parser.js",
-    "./dependencies/xbbcode.css",
-    "./dependencies/xbbcode.js",
-    "./dependencies/xbbcode-extension.js"
+    "./dependencies/xbbcode/xbbcode.css",
+    "./dependencies/xbbcode/xbbcode.js",
+    "./dependencies/xbbcode-extension/xbbcode-extension.js"
   ]
 }
