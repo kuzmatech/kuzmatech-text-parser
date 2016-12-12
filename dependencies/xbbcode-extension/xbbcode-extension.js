@@ -21,18 +21,18 @@ var KZMBBCODEEXTENSIONS = (() => {
         },
         closeTag: (params, content) => {
             return '</button>'
+        },
+        bootstrapButtonHandler: (params) => {
+            let classes = ['btn']
+            params.type ? classes.push(`btn-${params.type}`) : classes.push('btn-default')
+            if (params.block !== false) classes.push('btn-block')
+            if (params.size) classes.push(`btn-${params.size}`)
+            if (params.active) classes.push('active')
+            const classstring = classes.join(' ')
+            return `<button class="${classes.join(' ')}" ${params.disabled ? 'disabled="disabled"' : null}>`
         }
     }
     //Def Functions
-    let bootstrapButtonHandler = (params) => {
-        let classes = ['btn']
-        params.type ? classes.push(`btn-${params.type}`) : classes.push('btn-default')
-        if (params.block !== false) classes.push('btn-block')
-        if (params.size) classes.push(`btn-${params.size}`)
-        if (params.active) classes.push('active')
-        const classstring = classes.join(' ')
-        return `<button class="${classes.join(' ')}" ${params.disabled ? 'disabled="disabled"' : null}>`
-    }
     public.changeDefaults = (options) => {
         return (Object.assign(DEFAULTS, options) ? true : false)
     }
