@@ -4,8 +4,7 @@
   "description": "A wrapper for a multitude of text formats.",
   "main": "lib/parser.js",
   "scripts": {
-    "test": "jasmine",
-    "preinstall": "npm install ./dependencies/xbbcode-extension && npm install ./dependencies/xbbcode"
+    "test": "jasmine"
   },
   "author": "kuzmatech",
   "license": "MIT",
