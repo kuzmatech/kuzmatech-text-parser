@@ -22,11 +22,9 @@
     "jasmine": "^2.5.2"
   },
   "files": [
-    "LICENSE",
-    "README.md",
-    "lib/parser.js",
-    "dependencies/xbbcode.css",
-    "dependencies/xbbcode.js",
-    "dependencies/xbbcode-extension.js"
+    "./lib/parser.js",
+    "./dependencies/xbbcode.css",
+    "./dependencies/xbbcode.js",
+    "./dependencies/xbbcode-extension.js"
   ]
 }
