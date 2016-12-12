@@ -23,8 +23,6 @@
   },
   "files": [
     "./lib/parser.js",
-    "./dependencies/xbbcode/xbbcode.css",
-    "./dependencies/xbbcode/xbbcode.js",
-    "./dependencies/xbbcode-extension/xbbcode-extension.js"
+    "./dependencies/xbbcode/xbbcode.css"
   ]
 }
