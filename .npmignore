@@ -1,0 +1,4 @@
+spec/
+.vscode/
+test/
+.gitignore

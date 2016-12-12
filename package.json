@@ -20,11 +20,5 @@
   },
   "devDependencies": {
     "jasmine": "^2.5.2"
-  },
-  "files": [
-    "./lib/parser.js",
-    "./dependencies/xbbcode/xbbcode.css",
-    "./dependencies/xbbcode/xbbcode.js",
-    "./dependencies/xbbcode-extension/xbbcode-extension.js"
-  ]
+  }
 }
