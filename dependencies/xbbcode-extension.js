@@ -23,9 +23,13 @@ var KZMBBCODEEXTENSIONS = ( () => {
     }
     //Def Functions
     let bootstrapButtonHandler = (params) => {
-        if(!params.type){
-
-        }
+        let classes = [ 'btn' ]
+        params.type? classes.push(`btn-${params.type}`): classes.push('btn-default')
+        if(params.block !== false) classes.push('btn-block')
+        if(params.size) classes.push(`btn-${params.size}`)
+        if(params.active) classes.push('active')
+        const classstring = classes.join(' ')
+        return `<button class="${classes.join(' ')}" ${params.disabled? 'disabled="disabled"': null}>`
     }
     return public
 })
