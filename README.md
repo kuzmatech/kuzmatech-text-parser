@@ -19,7 +19,7 @@ I feel the code is fairly self-explanatory and also contains some comments for s
 
 ### Browser Usage
 
-```
+```javascript
 <script type="text/javascript" src="parser.js"></script>
 
 <script>
