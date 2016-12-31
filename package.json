@@ -1,5 +1,5 @@
 {
-  "name": "text-parser",
+  "name": "kzmtech-text-parser",
   "version": "0.2.21",
   "description": "A wrapper for a parser of a multitude of text formats.",
   "main": "lib/parser.js",
