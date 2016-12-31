@@ -1,7 +1,7 @@
 {
-  "name": "kuzmatech-text-parser",
+  "name": "text-parser",
   "version": "0.2.21",
-  "description": "A wrapper for a multitude of text formats.",
+  "description": "A wrapper for a parser of a multitude of text formats.",
   "main": "lib/parser.js",
   "scripts": {
     "test": "jasmine"
